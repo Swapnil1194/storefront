@@ -5,6 +5,8 @@ import { initializers } from '@dropins/tools/initializer.js';
 import * as productApi from '@dropins/storefront-pdp/api.js';
 import { render as productRenderer } from '@dropins/storefront-pdp/render.js';
 import ProductDetails from '@dropins/storefront-pdp/containers/ProductDetails.js';
+import { getConfigValue } from '../../scripts/configs.js';
+
 
 // Libs
 import {
