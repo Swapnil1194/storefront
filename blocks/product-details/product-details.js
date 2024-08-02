@@ -15,7 +15,6 @@ import {
   setJsonLd,
   loadErrorPage,
 } from '../../scripts/commerce.js';
-import { getConfigValue } from '../../scripts/configs.js';
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
 async function addToCart({
